@@ -1,0 +1,181 @@
+{
+  "task_name": "PAPER-EXP02C",
+  "protocol_version": "PAPER_EXP02C_PROTOCOL_V1",
+  "created_before_any_diagnostic_solver_execution": true,
+  "frozen_release_path": "leo-c/_new_solver_lab/final_release/MA_BGTR_v7_2_freeze_r2",
+  "algorithm_version": "MA-BGTR-v7.1",
+  "candidate_pool_protocol": "FULL_POOL_M0_M14_V1",
+  "selector_sha256": "5ee90f34f0bd78c07568b6f089349415d62fb3157532d6760e0ef33ef0d26eac",
+  "freeze_policy_sha256": "f82ed38f48879af1e97a91c36bc43785be7177676ade82154be55b0a8ac19aa5",
+  "critical_source_hashes": {
+    "ma_bgtr_v71_solver.py": "5ee90f34f0bd78c07568b6f089349415d62fb3157532d6760e0ef33ef0d26eac",
+    "ma_bgtr_v72_solver.py": "03b756e4ba479cb72f208ab101962c3250ba8450d497525006310075898e1b15",
+    "selector_freeze_policy.py": "f82ed38f48879af1e97a91c36bc43785be7177676ade82154be55b0a8ac19aa5",
+    "model_candidates.py": "fc518c563e1ef43e98e8955cb46e4d98d475adcced48940647f07e59d69d2870",
+    "ma_bgtr_v4_solver.py": "1489779165c4e46f1eb9fc801633e6cfd0dc604c5ddd1bfa07c103b560df64e5",
+    "ma_bgtr_v3_solver.py": "e53ac8cf991ee1970a2f6f0e0a373cb424749435ca0f8d53db1be3d88899ab6c",
+    "ma_bgtr_v2_solver.py": "a670edde0938633aa68e499e4e21a2af051b6f624ab2dfff8618604123588bc1",
+    "trajectory_solvers.py": "4be91265ff2767f9fa8771c9e8918766f6bc8c7fc58565bf7eb298357b75919c",
+    "trajectory_models.py": "7c204046ea65d88be4cd19bb76355d8341075dde15c92761336adabb07d8d27e",
+    "solvers.py": "cdc3b107ad8999299db60c30a55c62d43ed2bb917818320a7d42fd292fc5bfa7",
+    "models.py": "1d1a4de57f0ae041e2ed932b484f9b046ee5c399618833bff8ee6ac035aeb66f",
+    "robust_gates.py": "8a71eb5a5a2568d3ada745c6d9f9b3981162470bcdffc2b1502ec4f9a65fe5c6",
+    "hierarchical_gates.py": "8d37cee65969f2e67ab2b4cbd01e843a3975df167203f12f8ef5f2b17e924b69",
+    "family_evidence.py": "5e54aabb114abf8ba21e51db54ceaeda31018182627a1e84e4bc13f947135f95",
+    "bias_gate_fix.py": "fd5d27da0d6fff919f3a0d71832795277930098755c9a6af06c83e847ceaddf9",
+    "risk_veto.py": "67598bba0d3a28cdb01981f0607c4fd0750f2dad3f27f5d0a03ae391ffe0170f",
+    "qatar_error_model.py": "24c27bb8f04830e094949ff4dad29c7da2f9f52328532be6cb6d505a6ef83e0b",
+    "synthetic.py": "b4628215b0ca3f8d26e6cff9b225ad65a2016e867841681ebb040f1661d1c639",
+    "cascade_refinement.py": "8270714c95f384a6bffbccc7614cf609680af9c9d966328cd6eeb46928630e47",
+    "gir_tr_solver.py": "ce2ecc4b706d8e145aed5d9b7bc2b9971bfc36b8736d22930f3a0f01f1a61a25",
+    "be_gtr_solver.py": "4de524f302a39f37a8b18126644e08a6830f2211cebc799beb3ee3351e77194b",
+    "uncertainty_diagnostics.py": "0023327e60f1727a8527928f9e3d5435895c04c8b6f1cdb2167f44f355fcd3ef",
+    "geometry_selection.py": "1cbb41f39bf6fb17e5c72219947043fd97163122435db91a0331b95c867a1dab",
+    "ephemeris_covariance.py": "28dc3ca417969a046d91e064d68f0d6633d3972b318eea3384082b3f6f3746b5",
+    "validation_split.py": "f25af03eff692994eefc6349d54ef57df969146c7ccbce8ea05cbade97075028",
+    "influence_diagnostics.py": "a5f04dd747dcbe5d950247c7fcd67faf1e8895f818a0d2f359efb9ad809e00ac",
+    "coordinates.py": "a14b94b095a58e100b543113ce587481f674fee080837a864730e5f016a81412",
+    "quality.py": "864507e222c355889a83837be9a5175b7d751594022deb274ead57e8907dd87d",
+    "scripts/release_runtime.py": "179f662614a74acc66b1bc9b880c7c8a94e7835d4655b5c5e9726689539e9140"
+  },
+  "urban_nav_input_hashes": {
+    "Odaiba": "20dee15f07ab0b92388373b819f24e94e9d5ce08656228ae0f3b3075ff25730d",
+    "Shinjuku": "4bbfca1d83cae4895f3de610dd529cd81ad09300010454703a74b3dc242da196"
+  },
+  "geometry_source_sha256": "69f4ecc07b9d77e27d8d7153216f71da10f977db972fd288255867484e0eaea5",
+  "exp02b_required_file_hashes": {
+    "protocol/PAPER_EXP02B_PROTOCOL.json": "b4adc501b61a4aea90f03b349842c45d665e3869eeb03dfc90ed9070bc5b0a35",
+    "protocol/PAPER_EXP02B_PROTOCOL_SHA256.txt": "f1af917412e0a25b1dee21bb90a30cf8ccfc1eff70d6321c78dd9476c7d21a0d",
+    "protocol/PAPER_EXP02B_GEOMETRY_WINDOW_PROTOCOL.csv": "8d49a259183b9403326b869dc17f4a148a9992441e785fdefd797553f0d944b5",
+    "protocol/PAPER_EXP02B_FROZEN_SOURCE_AUDIT.csv": "f52fbc71e5c059237bc6dad5406c5c4fb7625f06766bca1af3f3b20e5e31ad78",
+    "outputs/PAPER_EXP02B_SELECTED_RESULTS.csv": "5297c9902386bb88d80960f722b823fe70609bf814c9e59d8d4e11ff5c5f9f39",
+    "outputs/PAPER_EXP02B_CANDIDATE_RESULTS.csv": "f3550aa4151e2e0987fa907d9761a51585374b0f85216edbb82490c83d78e90d",
+    "outputs/PAPER_EXP02B_ERROR_ATTRIBUTION.csv": "974eb99e6882b20e143d79d93713f49ca85db690a6e92173e46d09c2ea8e66d6",
+    "outputs/PAPER_EXP02B_MOTION_MODEL_REPRESENTATION_FLOORS.csv": "24918b52f7741838f4e2acb09bf88be9220e2061f388e98377a25c86d5195e24",
+    "outputs/PAPER_EXP02B_METRICS.json": "c146e5fe4777ee97de848c5ad6078f887c1031edd529f5e4cc097359a7f9d165"
+  },
+  "window_scope": {
+    "durations_s": [
+      8,
+      12
+    ],
+    "geometry_windows": [
+      "G0",
+      "G1"
+    ],
+    "segment_ids": [
+      "ODA_0012",
+      "ODA_0054",
+      "ODA_0063",
+      "ODA_0121",
+      "SHI_0118",
+      "SHI_0214",
+      "SHI_0259",
+      "SHI_0274"
+    ],
+    "window_count": 32,
+    "excluded_unavailable_durations_s": [
+      4,
+      6
+    ],
+    "exclusion_reason": "frozen EXP02B four-satellite and 20-observation rule was not met"
+  },
+  "primary_profile": "P0_clean_motion",
+  "primary_seed": 20260724,
+  "p1_auxiliary_rule": "P1 observation-only consistency check is run only if P0 observation consistency is established; no P1 tuning or primary conclusion replacement.",
+  "observability_models": [
+    "M2_ctd_full",
+    "M3_ctd_no_drift",
+    "M4_ctd_no_bias"
+  ],
+  "observability_subsets": [
+    "full",
+    "train_first_70pct",
+    "validation_last_30pct"
+  ],
+  "jacobian_rank_tolerance": "max(J.shape) * machine_epsilon * largest_singular_value",
+  "initialization_categories": {
+    "I0_cv_fit": "post-evaluation CV-fit p0 and v; truth-assisted diagnostic",
+    "I1_near_100m": "CV-fit p0 + 100 m local east, CV-fit v; truth-assisted diagnostic",
+    "I2_moderate_1km": "CV-fit p0 + 1 km local east, zero v; truth-derived diagnostic",
+    "I3_frozen_10km": "frozen cold start: first truth/anchor + 10 km local east, zero v"
+  },
+  "initialization_models": [
+    "M2_ctd_full",
+    "M3_ctd_no_drift",
+    "M4_ctd_no_bias",
+    "M7_robust_ctd_full",
+    "M13_robust_ctd_full_plus_gir_refine"
+  ],
+  "zero_noise_models": [
+    "M2_ctd_full",
+    "M3_ctd_no_drift",
+    "M4_ctd_no_bias"
+  ],
+  "zero_noise_initializations": [
+    "I0_cv_fit",
+    "I3_frozen_10km"
+  ],
+  "planned_initialization_batches": 128,
+  "planned_zero_noise_batches": 64,
+  "cause_decision_rules": {
+    "observation_consistency": {
+      "max_abs_clean_prediction_difference_mps": 1e-08,
+      "max_abs_noise_reconstruction_difference_mps": 1e-08,
+      "minimum_sign_correlation": 0.999999,
+      "max_abs_relative_time_difference_s": 1e-09
+    },
+    "geometry_observability": {
+      "m2_full_rank_required": 8,
+      "near_rank_deficient_condition_threshold": 1000000000000.0,
+      "window_fraction_for_strong_flag": 0.5
+    },
+    "initialization_basin": {
+      "i0_near_floor_threshold_m": "max(25 m, 5 * CV floor)",
+      "i3_failure_threshold_m": "max(100 m, 3 * I0 error)",
+      "window_fraction_for_strong_flag": 0.5
+    },
+    "candidate_solver": {
+      "i0_above_floor_threshold_m": "max(25 m, 5 * CV floor)",
+      "window_fraction_for_strong_flag": 0.5,
+      "requires_observation_consistency": true
+    },
+    "selector_alignment": {
+      "large_gap_threshold_m": "max(100 m, 0.5 * selected error)",
+      "run_fraction_for_strong_flag": 0.5
+    },
+    "primary_cause_policy": [
+      "observation inconsistency alone -> observation_model_inconsistency_dominant",
+      "two or more strong cause flags -> mixed_causes",
+      "initialization only -> initialization_basin_dominant",
+      "geometry only -> geometry_observability_dominant",
+      "candidate solver only -> candidate_solver_dominant",
+      "selector alignment only -> selector_alignment_dominant",
+      "otherwise -> inconclusive"
+    ]
+  },
+  "selector_alignment": "re-run frozen selector on truth-scrubbed existing I3 full-pool candidates; post-selection truth ranks only",
+  "theoretical_floors": "static/CV/CA are post-evaluation diagnostics only and never enter candidates or selector",
+  "paper_placement_policy": {
+    "observation_model_inconsistency_dominant": "do_not_include_until_generation_is_repaired",
+    "mixed_causes": "supplementary_limitation_analysis_only",
+    "initialization_basin_dominant": "supplementary_limitation_analysis_only",
+    "geometry_observability_dominant": "supplementary_limitation_analysis_only",
+    "candidate_solver_dominant": "supplementary_limitation_analysis_only",
+    "selector_alignment_dominant": "supplementary_limitation_analysis_only",
+    "inconclusive": "do_not_use_as_manuscript_evidence"
+  },
+  "prohibited_adaptations": [
+    "solver, selector, freeze-policy, candidate-pool, gate, or threshold changes",
+    "result-dependent tuning",
+    "truth, position error, oracle, route, segment, or motion type in selection",
+    "new positioning state model",
+    "fabricating 4 s or 6 s geometry windows"
+  ],
+  "prohibited_claims": [
+    "real dynamic LEO field validation",
+    "native UrbanNav LEO Doppler",
+    "CA floor as candidate solver",
+    "deployment performance from I0/I1"
+  ]
+}

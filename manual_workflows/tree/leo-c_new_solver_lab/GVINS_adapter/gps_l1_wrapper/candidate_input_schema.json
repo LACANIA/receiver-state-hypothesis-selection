@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GPS L1 candidate observation; state is a separate physical parameter argument",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "receive_gpst_ns",
+    "satellite",
+    "system",
+    "signal",
+    "frequency_hz",
+    "doppler_hz",
+    "ephemeris"
+  ],
+  "properties": {
+    "receive_gpst_ns": {
+      "type": "integer"
+    },
+    "satellite": {
+      "type": "integer"
+    },
+    "system": {
+      "const": "GPS"
+    },
+    "signal": {
+      "const": "CODE_L1C"
+    },
+    "frequency_hz": {
+      "const": 1575420000.0
+    },
+    "doppler_hz": {
+      "type": "number"
+    },
+    "ephemeris": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sat",
+        "toe_ns",
+        "toc_ns",
+        "toe_tow",
+        "health",
+        "A",
+        "e",
+        "i0",
+        "omg",
+        "OMG0",
+        "M0",
+        "delta_n",
+        "OMG_dot",
+        "i_dot",
+        "cuc",
+        "cus",
+        "crc",
+        "crs",
+        "cic",
+        "cis",
+        "af0",
+        "af1",
+        "af2"
+      ],
+      "properties": {
+        "sat": {
+          "type": "integer"
+        },
+        "toe_ns": {
+          "type": "integer"
+        },
+        "toc_ns": {
+          "type": "integer"
+        },
+        "toe_tow": {
+          "type": "number"
+        },
+        "health": {
+          "type": "integer"
+        },
+        "A": {
+          "type": "number"
+        },
+        "e": {
+          "type": "number"
+        },
+        "i0": {
+          "type": "number"
+        },
+        "omg": {
+          "type": "number"
+        },
+        "OMG0": {
+          "type": "number"
+        },
+        "M0": {
+          "type": "number"
+        },
+        "delta_n": {
+          "type": "number"
+        },
+        "OMG_dot": {
+          "type": "number"
+        },
+        "i_dot": {
+          "type": "number"
+        },
+        "cuc": {
+          "type": "number"
+        },
+        "cus": {
+          "type": "number"
+        },
+        "crc": {
+          "type": "number"
+        },
+        "crs": {
+          "type": "number"
+        },
+        "cic": {
+          "type": "number"
+        },
+        "cis": {
+          "type": "number"
+        },
+        "af0": {
+          "type": "number"
+        },
+        "af1": {
+          "type": "number"
+        },
+        "af2": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "$comment": "Only prelocked causal healthy ephemeris records. Candidate state uses native p0/v/b0/bdot layout and integer time origin. No pseudorange, reference files, PVT/RTK fields, QA clock estimates, uncertainty weights or oracle inputs."
+}

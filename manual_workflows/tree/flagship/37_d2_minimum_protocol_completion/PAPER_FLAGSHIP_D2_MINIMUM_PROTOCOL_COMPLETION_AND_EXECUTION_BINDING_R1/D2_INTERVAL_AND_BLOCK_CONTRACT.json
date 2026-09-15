@@ -1,0 +1,29 @@
+{
+  "schema_version": "D2_INTERVAL_AND_BLOCK_CONTRACT_V1",
+  "status": "complete_and_locked",
+  "time_rule_source": "PAPER_FLAGSHIP_NEW_ORBIT_ACQUISITION_PROTOCOL.json",
+  "snapshot_capture_complete_utc": "2026-08-27T14:15:30.338815Z",
+  "snapshot_median_element_epoch_utc": "2026-08-27T03:23:26.974752Z",
+  "D2_A_start_rule": "first whole UTC hour at or after max(snapshot capture completion UTC, snapshot median element epoch UTC)",
+  "D2_A_start_utc": "2026-08-27T15:00:00Z",
+  "D2_A_end_utc": "2026-08-30T15:00:00Z",
+  "D2_B_start_rule": "D2_A_start + 10 days",
+  "D2_B_start_utc": "2026-09-06T15:00:00Z",
+  "D2_B_end_utc": "2026-09-09T15:00:00Z",
+  "interval_duration_hours": 72,
+  "gap_between_intervals_days": 7,
+  "historical_development_end_utc": "2026-07-28T02:05:07.004832Z",
+  "minimum_historical_separation_days": 30,
+  "target_receiver_count": 48,
+  "intervals_per_receiver": 2,
+  "target_block_count": 96,
+  "minimum_eligible_blocks": 48,
+  "independent_statistical_unit": "orbit-time-receiver block",
+  "block_ids": {
+    "first": "D2_B000",
+    "last": "D2_B095"
+  },
+  "mapping_rule": "block_index=2*receiver_index+interval_index; interval A=0; interval B=1",
+  "mapping_order": "receiver-major_interval-minor",
+  "geometry_dependent_time_shift_forbidden": true
+}

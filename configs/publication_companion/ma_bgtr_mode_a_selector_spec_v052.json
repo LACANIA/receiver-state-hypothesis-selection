@@ -1,0 +1,213 @@
+{
+  "spec_version": "v0.5.2-publication-1",
+  "source_version": "MA-BGTR-v7.2 preserves v7.1 choices",
+  "source_SHA": {
+    "ma_bgtr_v71_solver.py": "5ee90f34f0bd78c07568b6f089349415d62fb3157532d6760e0ef33ef0d26eac",
+    "ma_bgtr_v72_solver.py": "03b756e4ba479cb72f208ab101962c3250ba8450d497525006310075898e1b15",
+    "family_evidence.py": "5e54aabb114abf8ba21e51db54ceaeda31018182627a1e84e4bc13f947135f95",
+    "hierarchical_gates.py": "8d37cee65969f2e67ab2b4cbd01e843a3975df167203f12f8ef5f2b17e924b69",
+    "bias_gate_fix.py": "fd5d27da0d6fff919f3a0d71832795277930098755c9a6af06c83e847ceaddf9",
+    "robust_gates.py": "8a71eb5a5a2568d3ada745c6d9f9b3981162470bcdffc2b1502ec4f9a65fe5c6",
+    "risk_veto.py": "67598bba0d3a28cdb01981f0607c4fd0750f2dad3f27f5d0a03ae391ffe0170f",
+    "selector_freeze_policy.py": "f82ed38f48879af1e97a91c36bc43785be7177676ade82154be55b0a8ac19aa5"
+  },
+  "mode": "A observable-only",
+  "candidate_pool": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7",
+    "M8",
+    "M9",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "M14"
+  ],
+  "candidate_names": {
+    "M0": "M0_static_position",
+    "M1": "M1_static_position_bias",
+    "M2": "M2_ctd_full",
+    "M3": "M3_ctd_no_drift",
+    "M4": "M4_ctd_no_bias",
+    "M5": "M5_be_b0_only",
+    "M6": "M6_be_full",
+    "M7": "M7_robust_ctd_full",
+    "M8": "M8_robust_be_b0_only",
+    "M9": "M9_robust_be_full",
+    "M10": "M10_gir_tr_fixed_scale",
+    "M11": "M11_gir_tr_mad_scale",
+    "M12": "M12_ctd_full_plus_gir_refine",
+    "M13": "M13_robust_ctd_full_plus_gir_refine",
+    "M14": "M14_static_plus_gir_refine"
+  },
+  "candidate_families": {
+    "M0": "static",
+    "M1": "static",
+    "M2": "core_dynamic_full_drift",
+    "M3": "core_dynamic_no_drift",
+    "M4": "core_dynamic_no_bias",
+    "M5": "projected_diagnostic",
+    "M6": "projected_diagnostic",
+    "M7": "robust_core_dynamic",
+    "M8": "robust_projected_diagnostic",
+    "M9": "robust_projected_diagnostic",
+    "M10": "direct_refinement_diagnostic",
+    "M11": "direct_refinement_diagnostic",
+    "M12": "refined_core_dynamic",
+    "M13": "robust_refined_core_dynamic",
+    "M14": "refined_static_diagnostic"
+  },
+  "observable_inputs": [
+    "candidate_model",
+    "dataset_type",
+    "numerical_success",
+    "physical_plausible",
+    "quality_pass",
+    "severe_risk_veto",
+    "raw_validation_rmse_mps",
+    "trimmed_validation_rmse_mps",
+    "inlier_validation_rmse_mps",
+    "robust_validation_cost",
+    "condition_number",
+    "position_cov_sqrt_trace_m",
+    "position_bootstrap_spread_m",
+    "estimated_speed_mps",
+    "beta0_estimated_mps",
+    "beta_dot_estimated_mps2",
+    "information_retention_ratio",
+    "retention_trace_ratio",
+    "rank_loss",
+    "outlier_evidence",
+    "burst_outlier_evidence",
+    "refine_gate_pass",
+    "base_model_for_refine",
+    "model_dof"
+  ],
+  "excluded_inputs": [
+    "receiver truth",
+    "position error",
+    "oracle identity",
+    "truth-derived scenario label",
+    "post-solution risk score"
+  ],
+  "eligibility_checks": [
+    "numerical_success=true",
+    "physical_plausible=true",
+    "quality_pass=true",
+    "severe_risk_veto=false",
+    "BE-full finite retention >=0.7 and finite rank_loss <=0",
+    "direct GIR M10/M11 not admitted to core selection",
+    "real M10/M11/M14 excluded",
+    "real dynamic models require measured-static gain rules"
+  ],
+  "numerical_checks": {
+    "required_booleans": [
+      "numerical_success",
+      "quality_pass"
+    ],
+    "condition_used_in_order_and_family_gates": true
+  },
+  "physical_checks": {
+    "required_boolean": "physical_plausible",
+    "speed_limit_refine_mps": 300.0,
+    "bias_limit_refine_mps": 30.0,
+    "drift_limit_refine_mps2": 1.0
+  },
+  "validation_metric_definitions": {
+    "metrics": [
+      "raw_validation_rmse_mps",
+      "trimmed_validation_rmse_mps",
+      "inlier_validation_rmse_mps"
+    ],
+    "validation_score": "0.45*trimmed + 0.35*inlier + 0.20*raw after declared missing substitution",
+    "direction": "lower is better",
+    "relative_gain": "(reference-candidate)/abs(reference); zero if either value is nonfinite or abs(reference)<1e-12"
+  },
+  "information_metric_definitions": {
+    "projection_trace_retention": "finite retention_trace_ratio >=0.7 for M6/M9",
+    "refine_information": "finite information_retention_ratio >=0.5",
+    "robust_information": "finite information_retention_ratio >=0.6"
+  },
+  "per_candidate_admission_rules": "See ma_bgtr_mode_a_candidate_gate_map_v052.csv; the file contains all 15 rows.",
+  "primary_evidence_ordering": [
+    "validation_score ascending",
+    "condition_number ascending; missing=1e15",
+    "model_dof ascending",
+    "candidate_model lexicographic ascending"
+  ],
+  "near_tie_formula": "Candidate belongs only when all raw, trimmed, and inlier validation values and reference values are finite and candidate_metric <= reference_metric*(1+0.01).",
+  "near_tie_tolerance": 0.01,
+  "near_tie_membership": "conjunctive relative upper band on all three metrics; fallback to reference alone if empty",
+  "ordered_tie_keys": [
+    "position_cov_sqrt_trace_m ascending; missing=1e9",
+    "position_bootstrap_spread_m ascending; missing=1e9",
+    "condition_number ascending; missing=1e15",
+    "model_dof ascending",
+    "candidate_model lexicographic ascending"
+  ],
+  "complete_candidate_total_order": [
+    "M0_static_position",
+    "M10_gir_tr_fixed_scale",
+    "M11_gir_tr_mad_scale",
+    "M12_ctd_full_plus_gir_refine",
+    "M13_robust_ctd_full_plus_gir_refine",
+    "M14_static_plus_gir_refine",
+    "M1_static_position_bias",
+    "M2_ctd_full",
+    "M3_ctd_no_drift",
+    "M4_ctd_no_bias",
+    "M5_be_b0_only",
+    "M6_be_full",
+    "M7_robust_ctd_full",
+    "M8_robust_be_b0_only",
+    "M9_robust_be_full"
+  ],
+  "missing_evidence_defaults": {
+    "trimmed_validation_rmse_mps": "raw_validation_rmse_mps",
+    "inlier_validation_rmse_mps": "raw_validation_rmse_mps",
+    "raw_validation_rmse_mps": "max(trimmed,inlier), then score=1e9 if still nonfinite",
+    "condition_number": 1000000000000000.0,
+    "position_cov_sqrt_trace_m": 1000000000.0,
+    "position_bootstrap_spread_m": 1000000000.0,
+    "information_retention_ratio_in_refine_or_robust": 1.0,
+    "retention_trace_ratio_in_BE_filter": "no rejection when nonfinite",
+    "rank_loss": 0.0
+  },
+  "unavailable_candidate_policy": "Record remains in the 15-candidate input; failed mandatory booleans exclude it from normal admission.",
+  "no_eligible_policy": "Choose best-validation record from the complete group and mark low_quality.",
+  "fallback_candidate_rule": "Use the primary validation ordering over all records when base eligibility is empty; if family gates empty the pool, use best dynamic-core record, then core, then all records.",
+  "fallback_status": "low_quality; retained in evaluation denominator; not normal admission",
+  "selected_output_contract": [
+    "selected_candidate",
+    "selected endpoint position",
+    "candidate status",
+    "selection evidence",
+    "low_quality flag"
+  ],
+  "failure_code_contract": "Terminal failure occurs only when the candidate group is empty or no fallback record exists; otherwise low_quality identifies fallback.",
+  "thresholds": {
+    "dynamic_gain_min": 0.02,
+    "real_dynamic_gain_min": 0.05,
+    "real_strong_gain": 0.1,
+    "bias_nontrivial_mps": 0.3,
+    "bias_condition_limit": 1000000000000.0,
+    "bias_gain_min": 0.02,
+    "drift_gain_min": 0.02,
+    "drift_small_mps2": 0.005,
+    "near_tie_eps": 0.01,
+    "projection_retention_min": 0.7,
+    "refine_raw_ratio_max": 1.01,
+    "refine_gain_min": 0.02,
+    "refine_condition_ratio_max": 10.0,
+    "refine_information_min": 0.5,
+    "robust_gain_min": 0.03,
+    "robust_raw_ratio_max": 1.03,
+    "robust_information_min": 0.6
+  }
+}

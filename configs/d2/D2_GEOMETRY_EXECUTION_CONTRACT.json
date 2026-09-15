@@ -1,0 +1,63 @@
+{
+  "schema_version": "D2_GEOMETRY_EXECUTION_CONTRACT_V1",
+  "status": "complete_not_executed",
+  "canonical_orbit": {
+    "snapshot_id": "D2_SNAPSHOT_CANDIDATE_001",
+    "format": "OMM_XML",
+    "raw_sha256": "d1b58796a12dff8d3a3020d58e93516d529850508fbb910e529f0af109059827",
+    "replacement_forbidden": true,
+    "target_norad_count": 80
+  },
+  "pipeline_reuse": {
+    "DATA04_protocol": "PAPER_DATA04_PROTOCOL.json",
+    "DATA04_build": "paper_data04_build.py",
+    "DATA04_common": "paper_data04_common.py",
+    "DATA07_protocol": "PAPER_DATA07_GEOMETRY_PROTOCOL.json",
+    "DATA07_geometry": "paper_data07_geometry.py",
+    "reused_math": [
+      "OMM parsing",
+      "SGP4 propagation",
+      "ITRS/ECEF conversion",
+      "WGS84",
+      "elevation",
+      "finite range-rate",
+      "continuous arc validation"
+    ],
+    "OMM_XML_adapter_role": "engineering format adapter only"
+  },
+  "search": {
+    "unit": "receiver x interval block",
+    "direction": "chronological ascending",
+    "coarse_grid_seconds": 10,
+    "refinement_grid_seconds": 1,
+    "arc_duration_seconds": 120,
+    "arc_sample_cadence_seconds": 1,
+    "elevation_mask_degrees": 10.0,
+    "minimum_continuously_visible_target_satellites": 4,
+    "ranking": "chronologically_first_feasible",
+    "information_ranking": false,
+    "method_or_truth_criteria": false
+  },
+  "element_age": {
+    "source": "formal D2 acquisition protocol",
+    "reference": "snapshot median element epoch",
+    "maximum_absolute_distance_days": 14,
+    "applies_to_every_used_record": true
+  },
+  "feasibility": [
+    "all 121 one-second epochs present",
+    "at least four target Iridium NEXT satellites provide finite position, velocity, and range-rate rows over the full arc",
+    "frame and time conversion complete",
+    "element-age contract passes"
+  ],
+  "failure_state": "PRE_METHOD_GEOMETRY_INELIGIBLE",
+  "failure_actions_forbidden": [
+    "receiver replacement",
+    "snapshot replacement",
+    "interval movement",
+    "threshold change",
+    "seed redraw"
+  ],
+  "headline_gate": "eligible_blocks>=48; execute every eligible block",
+  "geometry_execution_in_this_task": 0
+}

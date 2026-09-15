@@ -1,0 +1,82 @@
+{
+  "schema_version": "D2_TRUTH_AND_METHOD_LOCK_CONTRACT_V1",
+  "status": "complete_for_next_task",
+  "stages": [
+    {
+      "stage": "A",
+      "name": "snapshot",
+      "state": "complete",
+      "truth_access": false
+    },
+    {
+      "stage": "B",
+      "name": "receiver_geometry_observation_and_truth_generation",
+      "state": "authorized_for_next_task",
+      "truth_access": "writer_only"
+    },
+    {
+      "stage": "C",
+      "name": "candidate_selector_comparator_execution",
+      "state": "authorized_after_B",
+      "truth_access": false
+    },
+    {
+      "stage": "C_lock",
+      "name": "D2_METHOD_OUTPUT_LOCK",
+      "state": "required",
+      "truth_access": false
+    },
+    {
+      "stage": "D",
+      "name": "independent_truth_evaluation",
+      "state": "forbidden_until_C_lock",
+      "truth_access": true
+    }
+  ],
+  "sealed_truth_store": {
+    "required_fields": [
+      "batch_id",
+      "block_id",
+      "receiver_truth_trajectory_ecef_m",
+      "output_epoch_truth_position_ecef_m",
+      "scenario_identity",
+      "generation_identity",
+      "truth_record_sha256"
+    ],
+    "method_worker_access": false,
+    "manifest_public_fields": [
+      "batch_id",
+      "truth_record_id",
+      "sha256",
+      "sealed"
+    ],
+    "manifest_forbidden_fields": [
+      "truth_coordinates",
+      "position_error",
+      "oracle_candidate"
+    ]
+  },
+  "method_output_lock": {
+    "filename": "D2_METHOD_OUTPUT_LOCK.json",
+    "required_fields": [
+      "snapshot_sha256",
+      "receiver_registry_sha256",
+      "block_registry_sha256",
+      "observation_manifest_sha256",
+      "candidate_output_hashes",
+      "EGSHS_output_sha256",
+      "ALWAYS_M0_output_sha256",
+      "ALWAYS_M2_output_sha256",
+      "ALWAYS_M12_output_sha256",
+      "AIC_output_sha256",
+      "FSC_output_sha256",
+      "BIC_output_sha256",
+      "truth_reads_before_lock",
+      "lock_created_utc"
+    ],
+    "truth_reads_before_lock_required_value": 0,
+    "immutable_after_creation": true
+  },
+  "truth_reads_in_this_task": 0,
+  "truth_records_generated_in_this_task": 0
+}

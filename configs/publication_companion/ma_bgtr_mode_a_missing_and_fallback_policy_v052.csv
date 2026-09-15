@@ -1,0 +1,11 @@
+condition,action,output_status
+trimmed validation missing,substitute raw validation,unchanged
+inlier validation missing,substitute raw validation,unchanged
+raw validation missing,"substitute max(trimmed,inlier); if still nonfinite score=1e9",unchanged
+mandatory numerical/physical/quality boolean missing,default false and exclude from normal eligibility,ineligible
+near-tie covariance or bootstrap spread missing,use 1e9 tie penalty,unchanged
+condition number missing,use 1e15 ordering penalty,unchanged
+no record passes base eligibility,best-validation record over complete nonempty group,low_quality
+family-gated pool becomes empty,"best dynamic-core, then core, then complete group",low_quality
+candidate group empty,terminal failure; no usable output,failure
+low_quality fallback in evaluation,retain output in common denominator and report fallback identity,low_quality

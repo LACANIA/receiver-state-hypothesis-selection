@@ -1,0 +1,1298 @@
+[
+  {
+    "window": 30,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F001"
+  },
+  {
+    "window": 30,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F002"
+  },
+  {
+    "window": 30,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425139.7219439605,
+      5380347.349480243,
+      2409277.108870319
+    ],
+    "offset_ecef_m": [
+      811.1071056538127,
+      -486.66426339228764,
+      324.4428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F003"
+  },
+  {
+    "window": 30,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2421895.293521345,
+      5378400.692426674,
+      2410574.880239365
+    ],
+    "offset_ecef_m": [
+      4055.5355282690634,
+      -2433.3213169614382,
+      1622.2142113076254
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F004"
+  },
+  {
+    "window": 30,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F005"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F006"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F007"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425139.7219439605,
+      5380347.349480243,
+      2409277.108870319
+    ],
+    "offset_ecef_m": [
+      811.1071056538127,
+      -486.66426339228764,
+      324.4428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F008"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2421895.293521345,
+      5378400.692426674,
+      2410574.880239365
+    ],
+    "offset_ecef_m": [
+      4055.5355282690634,
+      -2433.3213169614382,
+      1622.2142113076254
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F009"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F010"
+  },
+  {
+    "window": 30,
+    "model": "M0",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F011"
+  },
+  {
+    "window": 30,
+    "model": "M0",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F012"
+  },
+  {
+    "window": 30,
+    "model": "M0",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F013"
+  },
+  {
+    "window": 30,
+    "model": "M3",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F014"
+  },
+  {
+    "window": 30,
+    "model": "M3",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F015"
+  },
+  {
+    "window": 30,
+    "model": "M3",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F016"
+  },
+  {
+    "window": 30,
+    "model": "M4",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F017"
+  },
+  {
+    "window": 30,
+    "model": "M4",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F018"
+  },
+  {
+    "window": 30,
+    "model": "M4",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F019"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.9986315692489783,
+      0.013905021906783693,
+      -0.050414673113038086
+    ],
+    "initial_ecef_m": [
+      -2425335.231206686,
+      5380842.585374811,
+      2408921.5883363686
+    ],
+    "offset_ecef_m": [
+      615.5978429285285,
+      8.571631175376778,
+      -31.077691689311553
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F020"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.9986315692489783,
+      0.013905021906783693,
+      -0.050414673113038086
+    ],
+    "initial_ecef_m": [
+      -2424952.197480365,
+      5380847.918765542,
+      2408902.2513549444
+    ],
+    "offset_ecef_m": [
+      998.6315692489783,
+      13.905021906783693,
+      -50.414673113038084
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F021"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.9986315692489783,
+      0.013905021906783693,
+      -0.050414673113038086
+    ],
+    "initial_ecef_m": [
+      -2420957.6712033693,
+      5380903.538853169,
+      2408700.5926624923
+    ],
+    "offset_ecef_m": [
+      4993.1578462448915,
+      69.52510953391847,
+      -252.07336556519044
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F022"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.9986315692489783,
+      0.013905021906783693,
+      -0.050414673113038086
+    ],
+    "initial_ecef_m": [
+      -2415964.5133571243,
+      5380973.063962703,
+      2408448.5192969274
+    ],
+    "offset_ecef_m": [
+      9986.315692489783,
+      139.05021906783693,
+      -504.1467311303809
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F023"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.052256535952198147,
+      -0.30328645920107256,
+      0.9514654897133958
+    ],
+    "initial_ecef_m": [
+      -2425918.615957417,
+      5380647.055414034,
+      2409539.188746871
+    ],
+    "offset_ecef_m": [
+      32.2130921970382,
+      -186.95832960099708,
+      586.5227188130992
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F024"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.052256535952198147,
+      -0.30328645920107256,
+      0.9514654897133958
+    ],
+    "initial_ecef_m": [
+      -2425898.5725136623,
+      5380530.727284434,
+      2409904.131517771
+    ],
+    "offset_ecef_m": [
+      52.25653595219815,
+      -303.28645920107255,
+      951.4654897133959
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F025"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.052256535952198147,
+      -0.30328645920107256,
+      0.9514654897133958
+    ],
+    "initial_ecef_m": [
+      -2425689.5463698534,
+      5379317.58144763,
+      2413709.9934766246
+    ],
+    "offset_ecef_m": [
+      261.28267976099073,
+      -1516.4322960053628,
+      4757.327448566979
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F026"
+  },
+  {
+    "window": 30,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.052256535952198147,
+      -0.30328645920107256,
+      0.9514654897133958
+    ],
+    "initial_ecef_m": [
+      -2425428.263690092,
+      5377801.149151624,
+      2418467.3209251915
+    ],
+    "offset_ecef_m": [
+      522.5653595219815,
+      -3032.8645920107256,
+      9514.654897133958
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F027"
+  },
+  {
+    "window": 120,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F028"
+  },
+  {
+    "window": 120,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F029"
+  },
+  {
+    "window": 120,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425139.7219439605,
+      5380347.349480243,
+      2409277.108870319
+    ],
+    "offset_ecef_m": [
+      811.1071056538127,
+      -486.66426339228764,
+      324.4428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F030"
+  },
+  {
+    "window": 120,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2421895.293521345,
+      5378400.692426674,
+      2410574.880239365
+    ],
+    "offset_ecef_m": [
+      4055.5355282690634,
+      -2433.3213169614382,
+      1622.2142113076254
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F031"
+  },
+  {
+    "window": 120,
+    "model": "M1",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F032"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F033"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F034"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425139.7219439605,
+      5380347.349480243,
+      2409277.108870319
+    ],
+    "offset_ecef_m": [
+      811.1071056538127,
+      -486.66426339228764,
+      324.4428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F035"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2421895.293521345,
+      5378400.692426674,
+      2410574.880239365
+    ],
+    "offset_ecef_m": [
+      4055.5355282690634,
+      -2433.3213169614382,
+      1622.2142113076254
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F036"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "MAIN",
+    "fit_id": "F037"
+  },
+  {
+    "window": 120,
+    "model": "M0",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F038"
+  },
+  {
+    "window": 120,
+    "model": "M0",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F039"
+  },
+  {
+    "window": 120,
+    "model": "M0",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F040"
+  },
+  {
+    "window": 120,
+    "model": "M3",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F041"
+  },
+  {
+    "window": 120,
+    "model": "M3",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F042"
+  },
+  {
+    "window": 120,
+    "model": "M3",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F043"
+  },
+  {
+    "window": 120,
+    "model": "M4",
+    "direction": "LEGACY_D0",
+    "radius_m": 0,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425950.8290496143,
+      5380834.013743635,
+      2408952.6660280577
+    ],
+    "offset_ecef_m": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F044"
+  },
+  {
+    "window": 120,
+    "model": "M4",
+    "direction": "LEGACY_D0",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2425450.8290496143,
+      5380534.013743635,
+      2409152.6660280577
+    ],
+    "offset_ecef_m": [
+      500.0,
+      -300.0,
+      200.0
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F045"
+  },
+  {
+    "window": 120,
+    "model": "M4",
+    "direction": "LEGACY_D0",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.8111071056538127,
+      -0.48666426339228763,
+      0.3244428422615251
+    ],
+    "initial_ecef_m": [
+      -2417839.757993076,
+      5375967.371109712,
+      2412197.094450673
+    ],
+    "offset_ecef_m": [
+      8111.071056538127,
+      -4866.6426339228765,
+      3244.428422615251
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "CORE_SUPPLEMENT",
+    "fit_id": "F046"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.9900294335884101,
+      -0.10099337983659117,
+      -0.09819398076152017
+    ],
+    "initial_ecef_m": [
+      -2425340.533919238,
+      5380771.757243148,
+      2408892.1351930564
+    ],
+    "offset_ecef_m": [
+      610.295130376384,
+      -62.256500487184724,
+      -60.53083500135812
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F047"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.9900294335884101,
+      -0.10099337983659117,
+      -0.09819398076152017
+    ],
+    "initial_ecef_m": [
+      -2424960.7996160258,
+      5380733.020363798,
+      2408854.4720472964
+    ],
+    "offset_ecef_m": [
+      990.0294335884101,
+      -100.99337983659116,
+      -98.19398076152017
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F048"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.9900294335884101,
+      -0.10099337983659117,
+      -0.09819398076152017
+    ],
+    "initial_ecef_m": [
+      -2421000.6818816722,
+      5380329.046844453,
+      2408461.69612425
+    ],
+    "offset_ecef_m": [
+      4950.14716794205,
+      -504.96689918295584,
+      -490.9699038076008
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F049"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "WEAK",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.9900294335884101,
+      -0.10099337983659117,
+      -0.09819398076152017
+    ],
+    "initial_ecef_m": [
+      -2416050.53471373,
+      5379824.079945269,
+      2407970.7262204424
+    ],
+    "offset_ecef_m": [
+      9900.2943358841,
+      -1009.9337983659117,
+      -981.9398076152016
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F050"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 616.4414002968977,
+    "unit_direction": [
+      0.06438269503225053,
+      -0.2955862039421281,
+      0.9531440943632116
+    ],
+    "initial_ecef_m": [
+      -2425911.1408909336,
+      5380651.802170169,
+      2409540.223508272
+    ],
+    "offset_ecef_m": [
+      39.68815868056863,
+      -182.2115734665298,
+      587.5574802139765
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F051"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 1000,
+    "unit_direction": [
+      0.06438269503225053,
+      -0.2955862039421281,
+      0.9531440943632116
+    ],
+    "initial_ecef_m": [
+      -2425886.446354582,
+      5380538.427539693,
+      2409905.810122421
+    ],
+    "offset_ecef_m": [
+      64.38269503225052,
+      -295.58620394212807,
+      953.1440943632116
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F052"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 5000,
+    "unit_direction": [
+      0.06438269503225053,
+      -0.2955862039421281,
+      0.9531440943632116
+    ],
+    "initial_ecef_m": [
+      -2425628.915574453,
+      5379356.082723925,
+      2413718.386499874
+    ],
+    "offset_ecef_m": [
+      321.9134751612526,
+      -1477.9310197106404,
+      4765.720471816057
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F053"
+  },
+  {
+    "window": 120,
+    "model": "M2",
+    "direction": "STRONG",
+    "radius_m": 10000,
+    "unit_direction": [
+      0.06438269503225053,
+      -0.2955862039421281,
+      0.9531440943632116
+    ],
+    "initial_ecef_m": [
+      -2425307.002099292,
+      5377878.151704214,
+      2418484.10697169
+    ],
+    "offset_ecef_m": [
+      643.8269503225052,
+      -2955.8620394212808,
+      9531.440943632115
+    ],
+    "support": "NATURAL_SUPPORT",
+    "module": "DIRECTIONAL",
+    "fit_id": "F054"
+  }
+]

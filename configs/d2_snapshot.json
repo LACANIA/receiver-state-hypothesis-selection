@@ -1,0 +1,14 @@
+{
+  "capture_utc": "2026-08-27T10:14:35Z",
+  "sha256": "d1b58796a12dff8d3a3020d58e93516d529850508fbb910e529f0af109059827",
+  "target_norad_objects": 80,
+  "eligible_evaluation_blocks": 92,
+  "outputs_per_method": 552,
+  "observation_interval_s": [
+    0,
+    120
+  ],
+  "report_epoch_s": 110,
+  "identity": "RETROSPECTIVE_FULL_WINDOW_ESTIMATE",
+  "dynamic_report_transform": "p_hat(110)=p_hat(120)-10*v_hat"
+}

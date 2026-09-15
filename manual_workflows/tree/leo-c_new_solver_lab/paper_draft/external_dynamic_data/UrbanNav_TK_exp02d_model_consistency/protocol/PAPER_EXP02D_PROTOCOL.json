@@ -1,0 +1,221 @@
+{
+  "task_name": "PAPER-EXP02D",
+  "protocol_version": "PAPER_EXP02D_PROTOCOL_V1",
+  "created_before_any_exp02d_solver_execution": true,
+  "frozen_release_path": "leo-c/_new_solver_lab/final_release/MA_BGTR_v7_2_freeze_r2",
+  "algorithm_version": "MA-BGTR-v7.1",
+  "selector_sha256": "5ee90f34f0bd78c07568b6f089349415d62fb3157532d6760e0ef33ef0d26eac",
+  "freeze_policy_sha256": "f82ed38f48879af1e97a91c36bc43785be7177676ade82154be55b0a8ac19aa5",
+  "critical_source_hashes": {
+    "ma_bgtr_v71_solver.py": "5ee90f34f0bd78c07568b6f089349415d62fb3157532d6760e0ef33ef0d26eac",
+    "ma_bgtr_v72_solver.py": "03b756e4ba479cb72f208ab101962c3250ba8450d497525006310075898e1b15",
+    "selector_freeze_policy.py": "f82ed38f48879af1e97a91c36bc43785be7177676ade82154be55b0a8ac19aa5",
+    "model_candidates.py": "fc518c563e1ef43e98e8955cb46e4d98d475adcced48940647f07e59d69d2870",
+    "ma_bgtr_v4_solver.py": "1489779165c4e46f1eb9fc801633e6cfd0dc604c5ddd1bfa07c103b560df64e5",
+    "ma_bgtr_v3_solver.py": "e53ac8cf991ee1970a2f6f0e0a373cb424749435ca0f8d53db1be3d88899ab6c",
+    "ma_bgtr_v2_solver.py": "a670edde0938633aa68e499e4e21a2af051b6f624ab2dfff8618604123588bc1",
+    "trajectory_solvers.py": "4be91265ff2767f9fa8771c9e8918766f6bc8c7fc58565bf7eb298357b75919c",
+    "trajectory_models.py": "7c204046ea65d88be4cd19bb76355d8341075dde15c92761336adabb07d8d27e",
+    "solvers.py": "cdc3b107ad8999299db60c30a55c62d43ed2bb917818320a7d42fd292fc5bfa7",
+    "models.py": "1d1a4de57f0ae041e2ed932b484f9b046ee5c399618833bff8ee6ac035aeb66f",
+    "robust_gates.py": "8a71eb5a5a2568d3ada745c6d9f9b3981162470bcdffc2b1502ec4f9a65fe5c6",
+    "hierarchical_gates.py": "8d37cee65969f2e67ab2b4cbd01e843a3975df167203f12f8ef5f2b17e924b69",
+    "family_evidence.py": "5e54aabb114abf8ba21e51db54ceaeda31018182627a1e84e4bc13f947135f95",
+    "bias_gate_fix.py": "fd5d27da0d6fff919f3a0d71832795277930098755c9a6af06c83e847ceaddf9",
+    "risk_veto.py": "67598bba0d3a28cdb01981f0607c4fd0750f2dad3f27f5d0a03ae391ffe0170f",
+    "qatar_error_model.py": "24c27bb8f04830e094949ff4dad29c7da2f9f52328532be6cb6d505a6ef83e0b",
+    "synthetic.py": "b4628215b0ca3f8d26e6cff9b225ad65a2016e867841681ebb040f1661d1c639",
+    "cascade_refinement.py": "8270714c95f384a6bffbccc7614cf609680af9c9d966328cd6eeb46928630e47",
+    "gir_tr_solver.py": "ce2ecc4b706d8e145aed5d9b7bc2b9971bfc36b8736d22930f3a0f01f1a61a25",
+    "be_gtr_solver.py": "4de524f302a39f37a8b18126644e08a6830f2211cebc799beb3ee3351e77194b",
+    "uncertainty_diagnostics.py": "0023327e60f1727a8527928f9e3d5435895c04c8b6f1cdb2167f44f355fcd3ef",
+    "geometry_selection.py": "1cbb41f39bf6fb17e5c72219947043fd97163122435db91a0331b95c867a1dab",
+    "ephemeris_covariance.py": "28dc3ca417969a046d91e064d68f0d6633d3972b318eea3384082b3f6f3746b5",
+    "validation_split.py": "f25af03eff692994eefc6349d54ef57df969146c7ccbce8ea05cbade97075028",
+    "influence_diagnostics.py": "a5f04dd747dcbe5d950247c7fcd67faf1e8895f818a0d2f359efb9ad809e00ac",
+    "coordinates.py": "a14b94b095a58e100b543113ce587481f674fee080837a864730e5f016a81412",
+    "quality.py": "864507e222c355889a83837be9a5175b7d751594022deb274ead57e8907dd87d",
+    "scripts/release_runtime.py": "179f662614a74acc66b1bc9b880c7c8a94e7835d4655b5c5e9726689539e9140"
+  },
+  "geometry_source_sha256": "69f4ecc07b9d77e27d8d7153216f71da10f977db972fd288255867484e0eaea5",
+  "exp02c_required_file_hashes": {
+    "protocol/PAPER_EXP02C_PROTOCOL.json": "6eaab35b9d0fa10ca05c73692c6ae3e820fc60d6917700077f3370ec5dadaa09",
+    "protocol/PAPER_EXP02C_PROTOCOL_SHA256.txt": "2f6659f11745b285b7ee6a7e2fb2cfb1b42a8ff44b42c53c5753f91bf523c26a",
+    "protocol/PAPER_EXP02C_WINDOW_INVENTORY.csv": "776a0f6b327da4b3eadfc6500f9960294db7136766304b7523efa83677884436",
+    "protocol/PAPER_EXP02C_FROZEN_SOURCE_AUDIT.csv": "ae5a42126fd243974ad5d07b3b772ffd7e4ce63e7ba5ad9782a8da59cd7d55ec",
+    "protocol/PAPER_EXP02C_INPUT_AUDIT.json": "f0593a6dfdd110c3c876981157f97c71087b7ec5eff4b2c1f7430bc7abf748cf",
+    "outputs/PAPER_EXP02C_INITIALIZATION_BASIN.csv": "552d67255776e5bb0fa618a8081bd8490990599cc17e973dd3175d21cd0c25fe",
+    "outputs/PAPER_EXP02C_ZERO_NOISE_DIAGNOSTIC.csv": "41872f8b5ebe9ab1fb489fb6db652b69c2e406c4b0e384143e10ddf54380e9c0",
+    "outputs/PAPER_EXP02C_LOCAL_OBSERVABILITY.csv": "63bbe000e29d93f7444bc9aa34fb6d2ae01ffc7fca8d9f02e71f548b81cea1d0",
+    "outputs/PAPER_EXP02C_SELECTOR_ALIGNMENT.csv": "08d4e19fdd448912da3e60a2c7f731f9f91e6f8f4460b7f8128e73c44cebbc25",
+    "outputs/PAPER_EXP02C_METRICS.json": "4ccb39e4437d5e0e38004d0e0ac1f97bff7e00fa53d4eb7c3be8da71dae0feb6",
+    "PAPER_EXP02C_TOTAL_REPORT.md": "03291872b1f2276d718936fd7a31d9e69271129eb2f1cd760242e399f516918d",
+    "scripts/paper_exp02c_run_diagnostic.py": "5bb53825cbb2c31d24a1627a694ae3e8c99275d200cb352bc35662c9a4873c2a"
+  },
+  "fixed_windows": [
+    {
+      "run_id": "ODA_0012_D8_G0_P0_clean_motion_20260724",
+      "source_segment_id": "ODA_0012",
+      "motion_type": "high_speed_straight",
+      "duration_s": 8,
+      "geometry_window_id": "G0",
+      "observation_sha256": "dc97f51097786d695fdcf9ccbcde27050b73920458665c078d23b1f7622171b4"
+    },
+    {
+      "run_id": "ODA_0054_D8_G0_P0_clean_motion_20260724",
+      "source_segment_id": "ODA_0054",
+      "motion_type": "turn",
+      "duration_s": 8,
+      "geometry_window_id": "G0",
+      "observation_sha256": "6e6a4a92c0e93d99510a9cad84f1688ffb8df54e8fa51067e44e01cb4abe39b8"
+    },
+    {
+      "run_id": "SHI_0214_D12_G0_P0_clean_motion_20260724",
+      "source_segment_id": "SHI_0214",
+      "motion_type": "deceleration",
+      "duration_s": 12,
+      "geometry_window_id": "G0",
+      "observation_sha256": "cedce0fa56ecc106700d0729af2c9cff6844c7d3a9246e4ba79c17e75811b896"
+    },
+    {
+      "run_id": "SHI_0274_D12_G1_P0_clean_motion_20260724",
+      "source_segment_id": "SHI_0274",
+      "motion_type": "stop_and_go",
+      "duration_s": 12,
+      "geometry_window_id": "G1",
+      "observation_sha256": "84c4e23004b6a0a059053994db3333cd1d67353c3b6d80314f4f255122a0dad6"
+    }
+  ],
+  "observation_truths": {
+    "T0_exact_static": "first valid T2 receiver position held fixed; velocity exactly zero",
+    "T1_exact_constant_velocity": "analytic p(t)=p0+v*t from the EXP02C post-evaluation least-squares CV fit",
+    "T2_original_urbannav": "original transplanted non-constant UrbanNav position and velocity"
+  },
+  "perturbations": "zero Gaussian noise, zero bias, zero drift, no outlier, no dropout",
+  "initializations": {
+    "I0_exact_truth": "truth p0 and truth velocity (instantaneous first velocity for T2)",
+    "I1_near_100m": "truth p0 +100 m local east; truth velocity",
+    "I2_moderate_1km": "truth p0 +1 km local east; zero velocity",
+    "I3_cold_10km": "truth p0 +10 km local east; zero velocity"
+  },
+  "candidate_execution": {
+    "T0": [
+      "M0_static_position",
+      "M1_static_position_bias",
+      "M2_ctd_full",
+      "M3_ctd_no_drift",
+      "M4_ctd_no_bias"
+    ],
+    "T1": [
+      "M2_ctd_full",
+      "M3_ctd_no_drift",
+      "M4_ctd_no_bias",
+      "M7_robust_ctd_full",
+      "M13_robust_ctd_full_plus_gir_refine"
+    ],
+    "T2": [
+      "M2_ctd_full",
+      "M3_ctd_no_drift",
+      "M4_ctd_no_bias",
+      "M7_robust_ctd_full",
+      "M13_robust_ctd_full_plus_gir_refine"
+    ],
+    "selector_execution": false,
+    "truth_used_to_modify_solver": false
+  },
+  "initialization_trace": "separate read-only arithmetic replay; frozen solver result remains authoritative",
+  "nuisance_ablations": {
+    "A0": "fix b0=0 and bdot=0; estimate p and v",
+    "A1": "fix velocity at T1 truth; estimate p, b0, bdot",
+    "A2": "fix p0 at T1 truth; estimate v, b0, bdot",
+    "A3": "estimate full M2 p, v, b0, bdot",
+    "scope": "T1 I0 and I1 only; diagnostic, not a candidate model"
+  },
+  "jacobian_finite_difference_steps": {
+    "position_m": 1.0,
+    "velocity_mps": 0.001,
+    "bias_mps": 0.0001,
+    "drift_mps2": 1e-05
+  },
+  "near_nullspace": {
+    "models": [
+      "M2_ctd_full"
+    ],
+    "states": [
+      "T1 exact truth",
+      "frozen M2 final from I0/I1"
+    ],
+    "raw_and_scaled_svd": true,
+    "state_scales": [
+      1000.0,
+      1000.0,
+      1000.0,
+      10.0,
+      10.0,
+      10.0,
+      1.0,
+      0.1
+    ],
+    "position_displacement_scales_m": [
+      -5000.0,
+      -1000.0,
+      -100.0,
+      -10.0,
+      -1.0,
+      0.0,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      5000.0
+    ],
+    "truth_to_final_path_alpha": [
+      -0.25,
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      1.0,
+      1.25
+    ]
+  },
+  "strict_recovery_thresholds": {
+    "near_numerical_precision_rmse_mps": 1e-08,
+    "near_recovery_rmse_mps": 1e-06,
+    "t0_i0_i1_position_error_m": 10.0,
+    "t0_i0_i1_speed_mps": 0.5,
+    "t1_i0_mean_trajectory_error_m": 10.0,
+    "t1_i0_velocity_error_mps": 0.5,
+    "t1_i1_mean_trajectory_error_m": 25.0,
+    "t1_i1_velocity_error_mps": 0.5,
+    "jacobian_relative_fro_error": 0.0001,
+    "near_rank_deficient_condition": 1000000000000.0,
+    "objective_flat_absolute_increase_at_1km": 1e-08,
+    "cold_start_pass_fraction": 0.5
+  },
+  "primary_diagnosis_rules_in_order": [
+    "initialization_plumbing_failure if any requested native state differs from the state passed to a frozen solver",
+    "observation_model_definition_failure if a T1 core I0 model has initial residual RMSE above 1e-8 m/s",
+    "model_consistent_recovery_pass if T0 M0 and all T1 core I0/I1 recovery checks pass and cold-start recovery is not systematically absent",
+    "initialization_basin_limitation if T1 core I0/I1 pass but fewer than 50% of core I3 runs meet the I1 recovery limits",
+    "bias_drift_coupling_dominant if A0 succeeds in at least 75% of I0/I1 cases while A3 succeeds in fewer than 50%",
+    "identifiability_or_gauge_limitation if an I0 core run has near-zero final residual, large position error, and either condition >=1e12 or a <=1e-8 objective increase at 1 km along the weakest direction",
+    "solver_update_or_objective_failure if T1 I0 starts near zero residual but leaves the exact solution or fails recovery without the coupling/gauge explanation",
+    "mixed_causes if two or more non-plumbing/non-observation strong failure mechanisms remain",
+    "inconclusive otherwise"
+  ],
+  "technical_reopen_rule": "true only when T1 core I0 recovery fails or plumbing/observation/Jacobian/update correctness fails; I1/I3 basin limitations alone do not reopen frozen code",
+  "prohibited_adaptations": [
+    "solver, selector, freeze-policy, candidate-pool, gate, or threshold changes",
+    "result-dependent tuning or window replacement",
+    "truth used to alter a frozen solver update",
+    "diagnostic ablations entering M0-M14 or a selector"
+  ],
+  "prohibited_claims": [
+    "truth-assisted I0/I1 as deployment performance",
+    "T2 as native LEO RF validation",
+    "nuisance ablation as a new positioning algorithm"
+  ]
+}

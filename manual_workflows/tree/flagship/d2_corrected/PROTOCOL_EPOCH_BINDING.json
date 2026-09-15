@@ -1,0 +1,13 @@
+{
+  "protocol_evidence": [
+    {
+      "path": "flagship/13_scientific_analysis/PAPER_FLAGSHIP_FINAL_DOMAIN_SCREENING_RISK_CHAIN_PREREGISTRATION/final_domain/PAPER_FLAGSHIP_FINAL_DOMAIN_GENERATION_PROTOCOL.md",
+      "SHA256": "04091d5f891d10afedb97a6f7c552013c164f072082e8721c6e53bf5f77e2f52",
+      "line": 18,
+      "text": "Each eligible block contains static, CV, CA, CTRV and stop/start controlled receiver-motion profiles. Each profile uses three fixed noise seeds: `20261001`, `20261003`, `20261005`. The observation cadence is 1 s, the candidate window is `[0,120] s`, output epoch is 110 s, elevation mask is 10 degrees, and only satellites contributing finite range-rate rows enter the effective count."
+    }
+  ],
+  "scenario_identity_source": "D2_SCENARIO_REGISTRY.csv and D2_BATCH_MANIFEST.csv already input-manifest bound; later H0-H5 reuse replaces early exploratory motion-profile proposal",
+  "output_identity": "full-window retrospective estimate reported at 110 s",
+  "real_time_available_at_110s": false
+}

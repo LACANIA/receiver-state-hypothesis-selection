@@ -1,0 +1,47 @@
+{
+  "release_name": "MA-BGTR-v7.2-freeze",
+  "algorithm_version": "MA-BGTR-v7.1",
+  "freeze_policy_version": "v7.2",
+  "selector": "v7.2 preserves v7.1 choices and applies freeze policy",
+  "declared_limitation": "S7_fast_north_no_bias",
+  "candidate_pool_changed_in_tech16": false,
+  "new_solver_added_in_tech16": false,
+  "canonical_profile": [
+    {
+      "dataset_type": "synthetic",
+      "scenario": "S0_static_clean"
+    },
+    {
+      "dataset_type": "synthetic",
+      "scenario": "S1_dynamic_clean"
+    },
+    {
+      "dataset_type": "synthetic",
+      "scenario": "S3_dynamic_outlier"
+    },
+    {
+      "dataset_type": "synthetic",
+      "scenario": "S5_dynamic_hard"
+    },
+    {
+      "dataset_type": "synthetic",
+      "scenario": "S7_fast_north_no_bias"
+    },
+    {
+      "dataset_type": "synthetic",
+      "scenario": "S9_dynamic_geometry_hard"
+    },
+    {
+      "dataset_type": "qatar_synthetic",
+      "scenario": "Q3_qatar_burst_outlier"
+    },
+    {
+      "dataset_type": "qatar_synthetic",
+      "scenario": "Q4_qatar_hard_geometry_noise"
+    },
+    {
+      "dataset_type": "real",
+      "scenario": "real_iridium"
+    }
+  ]
+}

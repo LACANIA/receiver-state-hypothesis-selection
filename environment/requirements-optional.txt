@@ -1,0 +1,3 @@
+# Optional interface check versions; not a replacement for the historic environment.
+skyfield==1.55
+rosbags==0.11.5

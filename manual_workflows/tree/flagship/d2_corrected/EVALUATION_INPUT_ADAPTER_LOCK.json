@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-09-05T07:57:08.760690+00:00",
+  "operation": "drop redundant output_epoch_s column solely to avoid pandas merge suffix; all saved states/selection/status unchanged",
+  "files": [
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_EGSHS_SELECTIONS.csv",
+      "SHA256": "990124e68dc124d4ecaa7b29b5668ce34cfe13e97c03893553c178f560da1dad"
+    },
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_ALWAYS_M0_SELECTIONS.csv",
+      "SHA256": "1519f7b0803fc5caae583a6e5ce1297d8b1169324e55ecfb2a80a1fb3376ef2b"
+    },
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_ALWAYS_M2_SELECTIONS.csv",
+      "SHA256": "a5f60fdb3ee66c829c77877ffd9f87b4e0b78fc6332fe8c0c55abc7009d040c0"
+    },
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_ALWAYS_M12_SELECTIONS.csv",
+      "SHA256": "6792b749085c98eb1c85c9df61584fb3dfc38d13fc5d3e3f6c678c395a18cef4"
+    },
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_AIC_SELECTIONS.csv",
+      "SHA256": "7a222faeac80ed8e4e0db95b48cd69eaf6adef8afd1c2dc1537694794f55bbfd"
+    },
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_FSC_SELECTIONS.csv",
+      "SHA256": "182b757912960fa74bc17c97fcc44544ab57faf03ed16e2d966080738149c482"
+    },
+    {
+      "path": "flagship/d2_corrected/evaluation_inputs/D2_BIC_SELECTIONS.csv",
+      "SHA256": "c240ba71658990f4c800c7bc58e9f127e335414e8d0b474f04944ca73d8196b9"
+    }
+  ]
+}

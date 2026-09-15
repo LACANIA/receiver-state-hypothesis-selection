@@ -1,0 +1,10 @@
+{
+  "identity": "POSTFIT_DESCRIPTIVE_NUMERICAL_COMPARISON_ONLY",
+  "residual_roundoff_tie_mps": 1e-9,
+  "position_roundoff_tie_m": 0.001,
+  "purpose": "Prevent machine-level equal-objective scatter from being counted as Residual Blindness. Raw signed differences are saved regardless.",
+  "clustering": "Complete-linkage Euclidean endpoint hierarchy, no selected distance cutoff and no correct-cluster label.",
+  "cross_window_pairing": "Match model, direction and radius. Both full planned coverage and native status retained. Each window evaluated at its own prespecified endpoint.",
+  "qualification": "Native flags only, no state filtered. Missing family comparator is NOT_AVAILABLE and not a fabricated zero gain.",
+  "new_selector_threshold": false
+}

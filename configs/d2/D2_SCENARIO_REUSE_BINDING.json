@@ -1,0 +1,76 @@
+{
+  "schema_version": "D2_SCENARIO_REUSE_BINDING_V1",
+  "status": "complete_and_locked_for_execution",
+  "D2_scenario_identity": "PAPER_EXP01_H0_H5_FROZEN_REUSE",
+  "source_protocol": "PAPER_EXP01_HOLDOUT_PROTOCOL.json",
+  "source_scenario_registry": "PAPER_EXP01_HOLDOUT_SCENARIOS.csv",
+  "source_execution": "paper_exp01_run_holdout.py::build_holdout_observation",
+  "source_status": "formal 60-batch headline holdout execution",
+  "geometry_independence_audit": {
+    "pass": true,
+    "science_formula_applies_to_new_legal_geometry": true,
+    "geometry_fields_replaced": [
+      "satellite_subset",
+      "window_start_s",
+      "window_end_s",
+      "observation_count",
+      "duration_s",
+      "sampling_interval_median_s",
+      "unique_satellite_count"
+    ],
+    "scientific_fields_unchanged": [
+      "speed_mps",
+      "direction_deg_enu",
+      "b0_mps",
+      "bdot_mps2",
+      "noise_sigma_mps",
+      "outlier_ratio",
+      "outlier_amplitude_mps",
+      "outlier_shape",
+      "heavy_tail_enabled",
+      "heavy_tail_distribution",
+      "heavy_tail_scale_mps",
+      "burst_enabled",
+      "burst_start_fraction",
+      "burst_length_fraction",
+      "confidence_simulated",
+      "confidence_low_ratio_target",
+      "sat_pos_sigma_m",
+      "sat_vel_sigma_mps",
+      "parameter_seed",
+      "noise_seed",
+      "ephemeris_seed",
+      "label_seed"
+    ]
+  },
+  "family_order": [
+    "H0_static_holdout",
+    "H1_dynamic_clean_holdout",
+    "H2_bias_drift_holdout",
+    "H3_outlier_holdout",
+    "H4_geometry_ephemeris_holdout",
+    "H5_no_bias_dynamic_holdout"
+  ],
+  "within_block_mapping": "for block index b, use H0_R(b mod 10) through H5_R(b mod 10), one row from each frozen family",
+  "scenarios_per_eligible_block": 6,
+  "maximum_batches_if_96_blocks_eligible": 576,
+  "family_proportions": "1:1:1:1:1:1 within every eligible block",
+  "random_seed_grammar": "use the four frozen seeds stored in each selected EXP01 row; no redraw and no derived science seed",
+  "initialization": {
+    "position": "east_10km",
+    "velocity": "zero_velocity",
+    "beta_prior": "B0_none"
+  },
+  "historical_D2_five_profile_text_identity": "superseded_for_execution_by_complete_existing_EXP01_H0_H5_identity",
+  "five_profile_equivalence_claim": false,
+  "supersession_timing": [
+    "pre_geometry",
+    "pre_observation",
+    "pre_method",
+    "pre_truth",
+    "pre_result"
+  ],
+  "N0_N5_reuse_needed": false,
+  "retired_branch_used": false,
+  "new_scientific_parameters_count": 0
+}

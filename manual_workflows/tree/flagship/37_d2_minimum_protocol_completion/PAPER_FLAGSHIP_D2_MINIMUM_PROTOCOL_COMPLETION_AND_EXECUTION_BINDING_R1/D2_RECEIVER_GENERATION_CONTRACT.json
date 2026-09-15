@@ -1,0 +1,86 @@
+{
+  "schema_version": "D2_RECEIVER_GENERATION_CONTRACT_V1",
+  "status": "complete_and_locked",
+  "snapshot_id": "D2_SNAPSHOT_CANDIDATE_001",
+  "snapshot_raw_sha256": "d1b58796a12dff8d3a3020d58e93516d529850508fbb910e529f0af109059827",
+  "receiver_count": 48,
+  "receiver_ids": {
+    "first": "D2_R00",
+    "last": "D2_R47"
+  },
+  "source_algorithm": "equal_area_fibonacci_sphere_with_seeded_longitude_phase",
+  "raw_candidate_count": 384,
+  "altitude_m": 0.0,
+  "wgs84_transform": "historical_anchor_exclusion_check.lla_to_ecef",
+  "seed_input": "D2_RECEIVER_V1|d1b58796a12dff8d3a3020d58e93516d529850508fbb910e529f0af109059827",
+  "seed_input_sha256": "773c5d2990298750066ccbbb948d9c5141d79b8c50a02b02a8373608d909bd3f",
+  "receiver_seed_uint32": 2000444713,
+  "seed_role": "deterministic_randomization_only",
+  "longitude_phase_rule": "numpy.default_rng(receiver_seed).uniform(-pi,pi)",
+  "latitude_rule": "z=1-2*(index+0.5)/384; latitude=asin(z)",
+  "longitude_rule": "golden-angle sequence plus seeded longitude phase",
+  "cells": [
+    {
+      "cell_id": "low_north",
+      "latitude_rule": "0<=latitude<30",
+      "count": 8
+    },
+    {
+      "cell_id": "low_south",
+      "latitude_rule": "-30<latitude<0",
+      "count": 8
+    },
+    {
+      "cell_id": "mid_north",
+      "latitude_rule": "30<=latitude<60",
+      "count": 8
+    },
+    {
+      "cell_id": "mid_south",
+      "latitude_rule": "-60<latitude<=-30",
+      "count": 8
+    },
+    {
+      "cell_id": "polar_north",
+      "latitude_rule": "60<=latitude<=90",
+      "count": 8
+    },
+    {
+      "cell_id": "polar_south",
+      "latitude_rule": "-90<=latitude<=-60",
+      "count": 8
+    }
+  ],
+  "cell_order": [
+    "low_north",
+    "low_south",
+    "mid_north",
+    "mid_south",
+    "polar_north",
+    "polar_south"
+  ],
+  "selection_rule": "within each cell, sort passing candidates by canonical_coordinate_sha256 and take first 8",
+  "exclusion_rule": "canonical ECEF distance from every historical/development/calibration/final-reserve anchor must exceed 100 m",
+  "historical_registry_path": "leo-c_new_solver_lab/paper_draft/metadata_registries/PAPER_HISTORICAL_ANCHOR_EXCLUSION_REGISTRY_FREEZE/canonical_registry/PAPER_HISTORICAL_RECEIVER_ANCHOR_EXCLUSION_REGISTRY.csv",
+  "registry_lock": "receiver_registry_locked=true after materialization",
+  "regeneration_for_geometry_forbidden": true,
+  "future_geometry_used": false,
+  "method_result_used": false,
+  "truth_used": false,
+  "generation_summary": {
+    "raw_count": 384,
+    "eligible_count": 384,
+    "selected_count": 48,
+    "cell_counts": {
+      "low_north": 8,
+      "low_south": 8,
+      "mid_north": 8,
+      "mid_south": 8,
+      "polar_north": 8,
+      "polar_south": 8
+    },
+    "phase_rad": 1.794742626129521,
+    "minimum_historical_ecef_distance_m": 148928.415361976,
+    "minimum_pairwise_d2_ecef_distance_m": 1070997.252632454
+  }
+}

@@ -1,0 +1,3 @@
+skyfield==1.55
+rosbags==0.11.5
+Imported only; no scientific replay run. Native environment retains sgp4==2.25.

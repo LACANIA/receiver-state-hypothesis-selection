@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-05T07:50:02.544716+00:00",
+  "estimand": "equal mean of 92 block paired Lcap1000 differences; all six scenarios retained within block",
+  "historical_bootstrap_seed": 282172439,
+  "historical_bootstrap_reps": 10000,
+  "historical_signflip_seed": 2779749054,
+  "historical_signflip_draws": 100000,
+  "sensitivity_seed": 2026090554,
+  "sensitivity_reps": 10000,
+  "procedures": [
+    "A historical orbit-time-receiver block",
+    "B receiver-cluster ratio bootstrap",
+    "C random-realization-cluster ratio bootstrap",
+    "D receiver-by-realization two-way pigeonhole ratio bootstrap",
+    "E connected receiver-realization component cluster ratio bootstrap"
+  ],
+  "roles": [
+    "HISTORICAL_PROTOCOL_REPLAY",
+    "DEPENDENCE_SENSITIVITY_ONLY"
+  ],
+  "intervals": "percentile 95%; all procedures reported; no multiplicity-confirmatory inference",
+  "component_graph": "shared receiver and reused random realization; propagation intervals treated as two fixed design settings, not independent random clusters",
+  "no_tuning": true
+}

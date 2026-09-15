@@ -1,0 +1,11 @@
+stage,order,key,direction,missing,definition
+primary reference,1,validation_score,ascending,declared score substitution; 1e9 final default,0.45 trimmed + 0.35 inlier + 0.20 raw
+primary reference,2,condition_number,ascending,1e15,candidate output
+primary reference,3,model_dof,ascending,source MODEL_DOF then 8,row model_dof has precedence
+primary reference,4,candidate_model,lexicographic ascending,empty string,full frozen source name
+near-tie membership,1,all three validation metrics,candidate <= reference*(1+0.01),nonfinite excludes member,"conjunction over raw, trimmed, inlier"
+near-tie resolution,1,position_cov_sqrt_trace_m,ascending,1e9,observable candidate covariance proxy
+near-tie resolution,2,position_bootstrap_spread_m,ascending,1e9,observable bootstrap spread
+near-tie resolution,3,condition_number,ascending,1e15,candidate condition number
+near-tie resolution,4,model_dof,ascending,source MODEL_DOF then 8,row model_dof has precedence
+near-tie resolution,5,candidate_model,lexicographic ascending,empty string,complete total order published in JSON

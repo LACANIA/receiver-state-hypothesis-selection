@@ -1,0 +1,46 @@
+{
+  "message_definitions": [
+    {
+      "filename": "GnssBestXYZMsg.msg",
+      "sha256": "1c5e86e45ca9383203e77f75ffcecda886320c921d0990b469f9fc430745eb5f"
+    },
+    {
+      "filename": "GnssEphemMsg.msg",
+      "sha256": "81ce36a83eb4604dfca8cccd359c3f94f19f38842c49cee2e135ca13651ea4e4"
+    },
+    {
+      "filename": "GnssGloEphemMsg.msg",
+      "sha256": "8542983d35d87a4cfcef2540ab4dc05618c1cd2d63132f9996ed590aafdf9207"
+    },
+    {
+      "filename": "GnssMeasMsg.msg",
+      "sha256": "334ac415c5bafc12cc4856b6532fcc6026742db8537e3e54c31772aaddaf799c"
+    },
+    {
+      "filename": "GnssObsMsg.msg",
+      "sha256": "c6f4e1df2b9c7c393f15a113cb5e5287da4839e4e04cccb9d9f5e4e07cc388b5"
+    },
+    {
+      "filename": "GnssPVTSolnMsg.msg",
+      "sha256": "9b1a11d8f912defe1d46ef89e57374786bc7e70797ce9752c4eec9ed8d9ced5a"
+    },
+    {
+      "filename": "GnssSvsMsg.msg",
+      "sha256": "a1b99b3f9487d9ec980eef968f8812e406b2654a5eb69df047523ecc1407aa2b"
+    },
+    {
+      "filename": "GnssTimeMsg.msg",
+      "sha256": "451a3b239a1431054a6965c4407b0a69539cfb8c7aee4103c2fb2bf092a188ad"
+    },
+    {
+      "filename": "GnssTimePulseInfoMsg.msg",
+      "sha256": "7933162368a9fc9c166aec13306a58174a842071b9e065491a31c99f106e7e1b"
+    },
+    {
+      "filename": "StampedFloat64Array.msg",
+      "sha256": "9b6504ac565b27186a005246952effa0b73cd0eb9708e41f3abdfe350b536e4d"
+    }
+  ],
+  "repository": "https://github.com/HKUST-Aerial-Robotics/gnss_comm",
+  "commit": "a2035fec1cc427bba184d25ff1fde8dcf23c9ce1"
+}

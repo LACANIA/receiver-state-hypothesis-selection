@@ -1,0 +1,120 @@
+{
+  "schema_version": "D2_OBSERVATION_SCHEMA_V1",
+  "status": "complete_for_next_task",
+  "builder_identity": "engineering composition of locked OMM + D2 receiver/block contracts + DATA04/DATA07 geometry + PAPER_EXP01 H0-H5 generator + MA-BGTR v7.2 runtime schema",
+  "dataset_type": "synthetic",
+  "required_method_fields": [
+    {
+      "name": "batch_id",
+      "type": "string",
+      "shape": "scalar",
+      "truth": false
+    },
+    {
+      "name": "block_id",
+      "type": "string",
+      "shape": "scalar",
+      "truth": false
+    },
+    {
+      "name": "scenario",
+      "type": "string",
+      "shape": "scalar",
+      "truth": false
+    },
+    {
+      "name": "time_s",
+      "type": "float64",
+      "shape": "[n]",
+      "truth": false
+    },
+    {
+      "name": "sat_pos_m",
+      "type": "float64",
+      "shape": "[n,3]",
+      "truth": false
+    },
+    {
+      "name": "sat_vel_mps",
+      "type": "float64",
+      "shape": "[n,3]",
+      "truth": false
+    },
+    {
+      "name": "meas_mps",
+      "type": "float64",
+      "shape": "[n]",
+      "truth": false
+    },
+    {
+      "name": "sigma_mps",
+      "type": "float64",
+      "shape": "scalar_or_[n]",
+      "truth": false
+    },
+    {
+      "name": "satellite_number",
+      "type": "string_or_int",
+      "shape": "[n]",
+      "truth": false
+    },
+    {
+      "name": "row_index",
+      "type": "int64",
+      "shape": "[n]",
+      "truth": false
+    },
+    {
+      "name": "lat_deg",
+      "type": "float64",
+      "shape": "scalar",
+      "truth": false
+    },
+    {
+      "name": "lon_deg",
+      "type": "float64",
+      "shape": "scalar",
+      "truth": false
+    },
+    {
+      "name": "t0_s",
+      "type": "float64",
+      "shape": "scalar",
+      "truth": false
+    },
+    {
+      "name": "public_receiver_anchor_ecef_m",
+      "type": "float64",
+      "shape": "[3]",
+      "truth": false
+    }
+  ],
+  "legacy_runtime_adapter": {
+    "p0_true_m": "public_receiver_anchor_ecef_m; used only to construct frozen east_10km initialization",
+    "v_true_mps": "[0,0,0]; frozen zero_velocity initialization helper",
+    "truth_positions_m": "all-NaN reporting placeholder; removed before selector store",
+    "b0_true_mps": "NaN reporting placeholder",
+    "bdot_true_mps2": "NaN reporting placeholder",
+    "truth_access_required": false
+  },
+  "method_store_forbidden_fields": [
+    "receiver_truth",
+    "output_epoch_truth_position",
+    "truth_positions_m",
+    "true_speed_mps",
+    "true_b0_mps",
+    "true_bdot_mps2",
+    "final_position_error_m",
+    "mean_position_error_m",
+    "max_position_error_m",
+    "velocity_error_mps",
+    "beta0_error_mps",
+    "beta_dot_error_mps2",
+    "oracle_best_position_error_m",
+    "selected_minus_oracle_error_m"
+  ],
+  "candidate_output_projection": "project immediately to the existing truth-free 55-column candidate schema before any selector or comparator reads the records",
+  "H4_ephemeris_rule": "method input receives perturbed satellite states; unperturbed satellite truth remains sealed",
+  "scientific_formula_changes": 0,
+  "D2_observations_generated_in_this_task": 0
+}
