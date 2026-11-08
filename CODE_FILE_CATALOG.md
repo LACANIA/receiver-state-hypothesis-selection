@@ -575,3 +575,22 @@
 | [third_party/gnss_comm/msg/GnssTimeMsg.msg](third_party/gnss_comm/msg/GnssTimeMsg.msg) | ROS/GNSS消息字段定义 | 第三方消息接口，许可见原目录 |
 | [third_party/gnss_comm/msg/GnssTimePulseInfoMsg.msg](third_party/gnss_comm/msg/GnssTimePulseInfoMsg.msg) | ROS/GNSS消息字段定义 | 第三方消息接口，许可见原目录 |
 | [third_party/gnss_comm/msg/StampedFloat64Array.msg](third_party/gnss_comm/msg/StampedFloat64Array.msg) | ROS/GNSS消息字段定义 | 第三方消息接口，许可见原目录 |
+
+
+## Current source-only additions
+
+| Path | Purpose |
+|---|---|
+| `code_provenance/development_baselines/baseline_common.py` | DEVELOPMENT_COMPARISON_SOURCE |
+| `code_provenance/development_baselines/paper_exp01_freeze_protocol.py` | DEVELOPMENT_COMPARISON_SOURCE |
+| `code_provenance/development_baselines/paper_exp03a_compare_selection_strategies.py` | DEVELOPMENT_COMPARISON_SOURCE |
+| `code_provenance/development_baselines/selection_worker.py` | DEVELOPMENT_COMPARISON_SOURCE |
+| `code_provenance/development_baselines/selection_worker_interface_correction.py` | DEVELOPMENT_COMPARISON_SOURCE |
+| `configs/development_baselines/PAPER_FLAGSHIP_A_ROUTE_BASELINE_EXECUTION_PROTOCOL.json` | FROZEN_PROTOCOL_OR_GROUP_CONFIGURATION |
+| `configs/development_baselines/PAPER_FLAGSHIP_A_ROUTE_BASELINE_PROTOCOL_LOCK.json` | FROZEN_PROTOCOL_OR_GROUP_CONFIGURATION |
+| `configs/development_baselines/PAPER_FLAGSHIP_A_ROUTE_HOLDOUT_GROUP_REGISTRY.csv` | FROZEN_PROTOCOL_OR_GROUP_CONFIGURATION |
+| `code_provenance/d120/compute_project_theory_original.py` | ARCHIVED_D120_CALCULATION_SOURCE |
+| `code_provenance/d120/reproduce_d120.py` | NEW_PACKAGING_ADAPTER_NOT_HISTORICAL_EXECUTION |
+| `code_provenance/d120/D120_48_WINDOW_INPUT_INDEX.csv` | D120_INPUT_INDEX_NO_DATA |
+| `configs/MOTION_CLOCK_G1_G3_INPUT_INDEX.csv` | GEOMETRY_INPUT_INDEX_NO_DATA |
+| `code_provenance/motion_clock/geometry28_original.py` | ARCHIVED_GEOMETRY_PROVENANCE_NOT_STANDALONE_CONTROLLER |

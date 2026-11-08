@@ -1,0 +1,4 @@
+﻿paper_geometry,registered_pool_id,input_filename,input_sha256,latitude_deg,longitude_deg,start_s,report_epoch_s,satellites,pre_noise_rank,access_status,access_route
+G1,MO_POOL_01,MO_POOL_01.npz,542182403c5a586a4c64a6d0bdb85df984966eed4959b2c99ffb4d1959ac3ada,-42.0,-75.0,14400.0,14430.0,11,1,LOCAL_ARCHIVED_NOT_CONFIRMED_PUBLIC,"Request the registered geometry by paper label, pool ID and checksum from the corresponding author."
+G2,MO_POOL_05,MO_POOL_05.npz,6f3e3d815d06c0257e34ca7d36c9cf8a18aa6733d2e24c60d31bb1de817fa8df,32.0,125.0,15600.0,15630.0,10,3,LOCAL_ARCHIVED_NOT_CONFIRMED_PUBLIC,"Request the registered geometry by paper label, pool ID and checksum from the corresponding author."
+G3,MO_POOL_03,MO_POOL_03.npz,ba804da379f4fb83bd5bc283f8ae4365cb2f61702f48acc5e913fcda0c1a1451,0.0,-155.0,15000.0,15030.0,6,6,LOCAL_ARCHIVED_NOT_CONFIRMED_PUBLIC,"Request the registered geometry by paper label, pool ID and checksum from the corresponding author."

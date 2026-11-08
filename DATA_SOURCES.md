@@ -28,3 +28,8 @@ Capture: **2026-08-27 10:14:35 UTC**. Original snapshot SHA256: `d1b58796a12dff8
 The study uses 80/80 target NORAD objects, 92 eligible evaluation blocks and 552 outputs. Observations cover 0–120 s; the reporting epoch is 110 s. Dynamic candidates use `p_hat(110) = p_hat(120) - 10*v_hat`. This is retrospective full-window estimation, not real-time navigation.
 
 Development and controlled motion-clock observations are generated using the retained code and frozen configurations. Intermediate observations, fitted records, Jacobian arrays, input inventories and result tables are intentionally absent. Exact historical snapshots, initialization records and provenance inventories may need to be obtained from the corresponding author; none is represented here as a newly invented public download.
+
+
+## Registered author-held inputs
+
+The D120 48-window geometry index is code_provenance/d120/D120_48_WINDOW_INPUT_INDEX.csv; the Motion–Clock G1–G3 index is configs/MOTION_CLOCK_G1_G3_INPUT_INDEX.csv. Request indexed inputs and archived D2 orbital data from the corresponding author using their identifiers and checksums, within applicable third-party sharing permissions. These indexes contain no observation or result arrays and are not claims of public data deposition. See REPRODUCIBILITY_SCOPE.md for source functions and execution boundaries.

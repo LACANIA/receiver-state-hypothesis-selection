@@ -27,3 +27,8 @@ Paths in this table are relative to `manual_workflows/tree/`, except those expli
 Historical scripts retain strict identities, stage ordering and output protection. Some use relative paths, some build paths from their own file location, and some contain Windows long-path helpers. Configure those path variables for the local working copy before launching a stage. Updating a local path or deployment hash must never change a scientific threshold, candidate definition, observation interval or reporting epoch. Keep the original source hashes in `SOURCE_MANIFEST.json` as provenance.
 
 No processed CSV/Parquet inputs, saved candidate records, wrapper observations, historical seals or result tables are shipped. Recreate them in the stated stage order; request exact historical input inventories from the corresponding author where required for an identical replay. This package has undergone source/hash/syntax/import checks, **not an end-to-end raw-data reproduction test**. Plot reproduction and publication artwork delivery are outside this source-only handoff.
+
+
+## Current detection-scale and comparison-source additions
+
+See [REPRODUCIBILITY_SCOPE.md](REPRODUCIBILITY_SCOPE.md) for the D120 48-window input check and optional calculation, locked Development comparator source, and Motion–Clock G1–G3 input identities. D120 is distinct from D2. The archived orbit catalogue has 550 km altitude, 53-degree inclination and 480 phase positions; only 11/10/6 satellites are visible in G1/G2/G3. These source additions do not establish an executed end-to-end reproduction.

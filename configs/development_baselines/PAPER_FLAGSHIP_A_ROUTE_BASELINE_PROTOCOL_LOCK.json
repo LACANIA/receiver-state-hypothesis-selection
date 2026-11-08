@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-08-02T17:08:12.590883Z",
+  "group_registry_sha256": "344e8ca7745ebb9714c0cc711f6914d1a24925ca4bac320524e261dc6c64ae9c",
+  "input_binding_json_sha256": "14b7ea11afd1c9216316aad330a3dab2a2e038ccff90a993d1ea239b889944d6",
+  "locked": true,
+  "protocol_json": "E:\\LEO_Doppler_Project\\leo-c\\tmp\\A_ROUTE_BASELINE_OUTPUT\\protocol\\PAPER_FLAGSHIP_A_ROUTE_BASELINE_EXECUTION_PROTOCOL.json",
+  "protocol_markdown_sha256": "b1153d685410f1bf5275ce0f19b650be9aed39c86dd4f088413c1faa9b980131",
+  "protocol_sha256": "8a7d86a0c35ae23e6a9cf52e43411f00923739e283a127814308d90b1a6a109a",
+  "truth_value_reads_before_lock": 0
+}
